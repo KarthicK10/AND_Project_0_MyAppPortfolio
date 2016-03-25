@@ -41,6 +41,7 @@
            android:id="@+id/button_spotify_streamer"
            android:layout_marginTop="@dimen/app_button_marigin_top"
            android:background="@color/colorAppButtons"
+           android:tag="@string/spotify_streamer_toast_message"
            android:onClick="displayToast" />
 
        <Button
@@ -52,6 +53,7 @@
            android:id="@+id/button_scores_app"
            android:layout_marginTop="@dimen/app_button_marigin_top"
            android:background="@color/colorAppButtons"
+           android:tag="@string/scores_app_toast_message"
            android:onClick="displayToast" />
 
        <Button
@@ -63,6 +65,7 @@
            android:id="@+id/button_library_app"
            android:layout_marginTop="@dimen/app_button_marigin_top"
            android:background="@color/colorAppButtons"
+           android:tag="@string/library_app_toast_message"
            android:onClick="displayToast" />
 
        <Button
@@ -74,6 +77,7 @@
            android:id="@+id/button_build_it_bigger"
            android:layout_marginTop="@dimen/app_button_marigin_top"
            android:background="@color/colorAppButtons"
+           android:tag="@string/build_it_bigger_toast_message"
            android:onClick="displayToast" />
 
        <Button
@@ -85,6 +89,7 @@
            android:id="@+id/button_xyz_reader"
            android:layout_marginTop="@dimen/app_button_marigin_top"
            android:background="@color/colorAppButtons"
+           android:tag="@string/xyz_reader_toast_message"
            android:onClick="displayToast" />
 
        <Button
@@ -96,6 +101,7 @@
            android:id="@+id/button_capstone"
            android:layout_marginTop="@dimen/app_button_marigin_top"
            android:background="@color/colorCapstoneButton"
+           android:tag="@string/capstone_toast_message"
            android:onClick="displayToast" />
 
     </LinearLayout>

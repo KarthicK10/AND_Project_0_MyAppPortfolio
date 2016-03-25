@@ -31,18 +31,10 @@ public class MainActivity extends AppCompatActivity {
 
     /* Function to display the toast message */
     public void displayToast(View view){
-        if(view.getId() == R.id.button_spotify_streamer)
-            createToast(getString(R.string.spotify_streamer_toast_message)).show();
-        else if(view.getId() == R.id.button_scores_app)
-            createToast(getString(R.string.scores_app_toast_message)).show();
-        else if(view.getId() == R.id.button_library_app)
-            createToast(getString(R.string.library_app_toast_message)).show();
-        else if(view.getId() == R.id.button_build_it_bigger)
-            createToast(getString(R.string.build_it_bigger_toast_message)).show();
-        else if(view.getId() == R.id.button_xyz_reader)
-            createToast(getString(R.string.xyz_reader_toast_message)).show();
-        else if(view.getId() == R.id.button_capstone)
-            createToast(getString(R.string.capstone_toast_message)).show();
+        /*Get the toast message which is set as tag in the button view,
+         * create the toast
+          * and display it*/
+        createToast(view.getTag().toString()).show();
     }
 
     /*Function to create a Toast with the message passed
